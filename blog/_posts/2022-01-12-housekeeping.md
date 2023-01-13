@@ -61,6 +61,9 @@ My second attempt was to just write a python script and assign a CRON job on my 
 
 However, I put this idea on the backburner for another day and decided to just put a .json in the repo that I’ll manually enter the details for every time I make a post. For now I just wrote a small script to take input from the .json file and give it variables for the blog section of my website to access.
 
+<img src="https://blog.dylan.sh/images/housekeeping_blog.png" width="80%" height="80%" style="display: block; margin-left: auto; margin-right: auto;">
+
+Certainly not the most elegant solution but it gets the job done so I can move on to other things for now.
 
 
 
