@@ -19,13 +19,13 @@ I updated all of the information by modifying the HTML in my github repo. It isn
 
 At the bottom of the website there’s a “contact” section. The submission section has been broken for a while so it needs to be updated. Because Github Pages only allows for static HTML/CSS/JS, I have to use an external service to accept submissions. I could just use the standard mailto: field but I’d prefer to have the submission section because it feels just a bit more polished.
 
-<img src="..images/housekeeping_contact.png" width="80%" height="80%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="../images/housekeeping_contact.png" width="80%" height="80%" style="display: block; margin-left: auto; margin-right: auto;">
 
 I used formspree to do this and it allows a message as well as a reply email. I had to modify the form to post to a formspree.io link with an email and message field. Works fine so feel free to try it yourself with a job offer and your company email.
 
 Because my domain is pretty short I decided that I’d like to throw in a URL shortener just for fun. Like I said previously though, Github Pages is static only and I’d rather not build out a whole huge backend so I have it call an API for short.io that I whitelabel with my own domain so that it looks nice but I’m really just a fraud.
 
-<img src="..images/housekeeping_urlshortener.png" width="80%" height="80%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="../images/housekeeping_urlshortener.png" width="80%" height="80%" style="display: block; margin-left: auto; margin-right: auto;">
 
 I added a textbox for inputting your URL and a button to submit it for shortening. Because they’re slightly different than the other ones I had to add additional CSS for them but that was pretty simple.
 
@@ -33,11 +33,11 @@ I added the script that short.io provides and modified it a bit since it didn’
 
 For my final trick I opened the site on mobile and realized it was poorly optimized and decided to write a script that removes the URL shortener if viewed on mobile because I figured that’s what was giving me the error I observed. 
 
-<img src="..images/mobilescript.png" width="80%" height="80%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="../images/mobilescript.png" width="80%" height="80%" style="display: block; margin-left: auto; margin-right: auto;">
 
 It uses the "mobile-detect" library to check if a user is on mobile. I had to include the library first and then create a "MobileDetect" object and call the "mobile()" method to check. While this was successful at removing the shortener, the error still occurred so I guess I have to fix that at some point.
 
-For the blog I considered writing it from scratch but decided I’d rather not have it look like Amazon from the 90’s. I picked out a jekyll theme because Github Pages seems to like it and they tend to use a standard MIT license so I can modify it to my heart’s content. I picked <a href="..https://github.com/nicoelayda/celeste">Celeste</a> because it looked nice and I liked the way it has a wave when you hover over the ‘d’ at the top. I modified some things like adding my LinkedIn and Github as well as my vanity email (<a href="mailto:contact@dylan.sh">contact@dylan.sh</a>), and replaced the text with my own. Because capybaras are my favorite animal I decided to ask DALLE to make me some capybaras (be sure to see what happens when you 404 the site). My girlfriend thought they were super cute so I guess that’s a win in my book.
+For the blog I considered writing it from scratch but decided I’d rather not have it look like Amazon from the 90’s. I picked out a jekyll theme because Github Pages seems to like it and they tend to use a standard MIT license so I can modify it to my heart’s content. I picked <a href="https://github.com/nicoelayda/celeste">Celeste</a> because it looked nice and I liked the way it has a wave when you hover over the ‘d’ at the top. I modified some things like adding my LinkedIn and Github as well as my vanity email (<a href="mailto:contact@dylan.sh">contact@dylan.sh</a>), and replaced the text with my own. Because capybaras are my favorite animal I decided to ask DALLE to make me some capybaras (be sure to see what happens when you 404 the site). My girlfriend thought they were super cute so I guess that’s a win in my book.
 
 Anywho, now everything is up and running so I have to fill it with posts. Honestly this is mostly just a test blog post to see how everything works out. The goal from here is to link it with my main page so that posts automatically populate on the site. Hopefully this goes well or else I wasted good coffee for nothing. Stay tuned!
 
