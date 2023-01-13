@@ -13,7 +13,7 @@ I left it as is for a while, but at this point it’s been a few years now and I
 
 The first thing I wanted to do is change the domain name. I currently own <em>“dylangarcia.me”, “dylanjcgarcia.com”, and “dylangarcia.rocks” </em>, which are all great but I felt that I could do better. I really wanted a domain name that was just my name but unfortunately someone took <em>“dylan.com”</em> back in 1995 and I don’t have a time machine yet. <em>“dylan.rocks”</em> would’ve been my next choice but unfortunately the .rocks TLD hates Dylan’s and decided to make it a $3000 premium domain. I considered purchasing it but I’ve run out of kidney’s to sell so I settled on <em>“dylan.sh”</em>, which I like because ‘.sh’ is the linux shell script file extension and I’ve always been a fan of British overseas territories.
 
-<img src="images/housekeeping_html_text.png" width="80%" height="80%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="../images/housekeeping_html_text.png" width="80%" height="80%" style="display: block; margin-left: auto; margin-right: auto;">
 
 I updated all of the information by modifying the HTML in my github repo. It isn’t too much work because it’s just changing the text. I also changed some of the icons and colors just to make it a bit more refined.
 
