@@ -57,7 +57,7 @@ My initial objective was to pull markdown metadata from <em>blog.dylan.sh</em> a
 
 I wanted to avoid the server route because my current main server is just my old gaming desktop and unfortunately it currently runs Windows and the updates kill it every few weeks <em>(I have all my drives fully encrypted and Windows doesn’t just boot up like normal since it gets hung on the Veracrypt bootloader screen).</em>
 
-My second attempt was to just write a python script and assign a CRON job on my laptop (MacOS) so that it would automatically push a .json file to my personal website repo during the day when I’m using it. The overhead for this wouldn’t be too high and because I have “Wake for network access” set to only on power adapter, it wouldn’t wake from sleep to perform the job <em>(unlike S3 sleep for Windows Modern Standby)</em> so my battery wouldn’t be randomly drained.
+My second attempt was to just write a python script and assign a CRON job on my laptop (MacOS) so that it would automatically push a .json file to my personal website repo during the day when I’m using it. The overhead for this wouldn’t be too high and because I have “Wake for network access” set to only on power adapter, it wouldn’t wake from sleep to perform the job <em>(unlike S0 sleep for Windows Modern Standby)</em> so my battery wouldn’t be randomly drained.
 
 However, I put this idea on the backburner for another day and decided to just put a .json in the repo that I’ll manually enter the details for every time I make a post. For now I just wrote a small script to take input from the .json file and give it variables for the blog section of my website to access.
 
