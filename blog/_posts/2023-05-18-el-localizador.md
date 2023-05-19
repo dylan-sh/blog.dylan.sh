@@ -1,6 +1,6 @@
 ---
 layout: post
-title: El-Localizador: Rudimentary Yelp
+title: 'El-Localizador: Rudimentary Yelp'
 ---
 ![El Localizador](https://github.com/dylan-sh/el-localizador/assets/50163127/17750565-1791-4fd0-bff5-e2ca25c828e0)
 
